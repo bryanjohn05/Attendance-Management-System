@@ -1,18 +1,29 @@
 # AttendEase
 
-Attendease is a comprehensive event management platform designed to streamline the process of organizing and managing events of all sizes. From conferences and trade shows to workshops and webinars, Attendease offers a suite of tools to simplify event planning, registration, promotion, and attendee engagement.
+AttendEase is a simple yet effective attendance management system built using HTML, JavaScript, CSS, and PHP. It helps organizations streamline their attendance tracking process efficiently.
 
 Features
-Event Creation: Easily create and customize events with a user-friendly interface.
-Registration Management: Efficiently manage attendee registrations and ticketing options.
-Marketing Tools: Promote your events through email campaigns, social media integrations, and customizable event websites.
-Attendee Engagement: Foster attendee engagement through interactive features like surveys, live polling, and networking opportunities.
-Analytics Dashboard: Gain insights into event performance with comprehensive analytics and reporting tools.
+User Authentication: Secure login system for administrators.
+Attendance Tracking: Record attendance for employees or students.
+Dashboard: View attendance statistics and summaries.
+Responsive Design: Accessible on various devices including desktops, tablets, and smartphones.
 
-Getting Started
-To get started with Attendease, follow these steps:
-Clone the Repository: Clone this repository to your local machine using git clone[ https://github.com/attendease/attendease.git.](https://github.com/bryanjohn05/Attendance-Management-System/tree/main)
-Install Dependencies: Install the necessary dependencies by running npm install.
-Configure Environment Variables: Set up your environment variables by creating a .env file and specifying the required variables.
-Start the Server: Start the development server by running npm start.
-Access the Application: Access the application by navigating to http://localhost:3000 in your web browser.
+Installation
+Clone the Repository: git clone(https://github.com/bryanjohn05/Attendance-Management-System/tree/main)
+
+Database Configuration:
+Create a MySQL database and import the students.sql file located in the database directory.
+
+Web Server Configuration:
+Ensure that your web server supports PHP and is properly configured to serve PHP files.
+Place the attendEase directory in your web server's document root directory.
+Accessing the Application:
+Navigate to http://localhost:3000 in your web browser.
+Login using the default administrator credentials (username: admin, password: admin) and update them immediately after login.
+
+Usage
+Administrator:
+Access the admin dashboard by logging in with the provided credentials.
+Manage users, view attendance, generate reports, and configure system settings.
+
+
