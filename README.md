@@ -8,9 +8,9 @@ Registration Management: Efficiently manage attendee registrations and ticketing
 Marketing Tools: Promote your events through email campaigns, social media integrations, and customizable event websites.
 Attendee Engagement: Foster attendee engagement through interactive features like surveys, live polling, and networking opportunities.
 Analytics Dashboard: Gain insights into event performance with comprehensive analytics and reporting tools.
+
 Getting Started
 To get started with Attendease, follow these steps:
-
 Clone the Repository: Clone this repository to your local machine using git clone[ https://github.com/attendease/attendease.git.](https://github.com/bryanjohn05/Attendance-Management-System/tree/main)
 Install Dependencies: Install the necessary dependencies by running npm install.
 Configure Environment Variables: Set up your environment variables by creating a .env file and specifying the required variables.
