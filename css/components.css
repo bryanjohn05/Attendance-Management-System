@@ -1,0 +1,117 @@
+/* body */
+body {
+    background: url("/photos/back.jpg");
+    background-size:cover;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* container to add or delete */
+.form-container {
+    width: 80%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container1 {
+    max-width: 520px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container1 .del {
+    font-size: 1.2rem;
+}
+
+.form-container1 .delt {
+    font-size: .9rem;
+}
+
+.form-container h3 {
+    text-align: center;
+    margin: 20px 0px;
+    color: #333;
+    font-size: 50px;
+}
+
+.usn_to_delete {
+    line-height: 50px;
+    font-size: 1.21rem;
+}
+
+.form-container1 input {
+    font-size: 1.4rem;
+}
+
+.box {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0D1C26;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #080808;
+}
+
+.btn3 {
+    width: 100%;
+    padding: 10px;
+    background-color: #0D1C26;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn3:hover {
+    background-color: #080808;
+}
+
+#reader {
+    float: right;
+    margin-top: 5rem;
+    right: 28rem;
+    height: 40%;
+    width: 40%;
+}
+
+#result {
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #0D1C26;
+    color: white;
+    padding: .1px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

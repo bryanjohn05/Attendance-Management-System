@@ -1,0 +1,100 @@
+header {
+    background-color: #0D1C26;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("/photos/back.jpg");
+    background-size:cover;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: #0c303d;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+ul {
+    padding-left: 20px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: #0D1C26;
+    color: white;
+    padding: .1px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+}
+
+
+/* login page */
+.container {
+    width: 400px;
+    height: 200px;
+    margin: 100px auto;
+    background-color: #0D1C26;
+    padding: 50px;
+    border-radius: 10px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+label {
+    margin-left: 15%;
+    font-size: 18px;
+}
+
+input {
+    margin-left: 2%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.btn2{
+    margin-left: 15%;
+    padding: 10px;
+    background-color: #1e2f44;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:72%
+}
+
+.btn2:hover {
+    background-color: #000000;
+}
+

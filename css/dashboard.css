@@ -1,0 +1,164 @@
+/* Header */
+.header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+    background: #0D1C26;
+}
+
+.logo-container {
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.navibar {
+    float: right;
+}
+
+.navibar i {
+    color: rgb(253, 254, 253);
+    font-size: 20px;
+}
+
+.navibar i:hover {
+    color: rgb(218, 224, 218);
+}
+
+.navibar a {
+    font-size: 1.3rem;
+    color: #eee;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.navibar a:hover {
+    color: rgb(248, 246, 212);
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0D1C26;
+    min-width: 180px;
+    z-index: 1;
+    right: .0rem;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: rgb(222, 218, 218);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Body */
+body {
+    background: url("/photos/back.jpg");
+    background-size:cover;
+    margin: 3rem 0;
+    padding: 0;
+}
+
+.main {
+    text-align: center;
+    padding: 3px 0px 0px 0px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.container1{
+    display: flex;
+}
+.aside{
+    flex: 1.5; 
+    padding: 18rem 0 0 0;
+    text-align: center;
+}
+.aside h2{
+    font-size: 30px;
+    padding-bottom: 0;
+}
+.aside span{
+    font-size: 20px;
+    text-decoration: none;
+    font-style: italic;
+}
+.main1 {
+    flex: 1.5;
+    margin-left: 50%;
+    text-align: justify;
+    padding: 3px;
+    margin: 1rem 1rem;
+    font-size: 20px;
+}
+
+.main1 .tag {
+    margin-top: -1.5rem;
+    padding-left: 1.5rem;
+    font-size: medium;
+    font-style: italic;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 1px solid #848282;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #0D1C26;
+    color: beige;
+}
+
+/* scanner, add new, delete */
+.btn1 {
+    padding: 10px 20px;
+    background-color: #0D1C26;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 3% 0% 1% 0%;
+}
+
+.btn1:hover {
+    background-color: #050705;
+    box-shadow: 0 2px 4px 0 rgba(252, 248, 248, 0.2), 0 3px 5px 0 #0b2332;
+}
+
+/* footer */
+footer {
+    background-color: #0D1C26;
+    color: white;
+    padding: .1px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+}
