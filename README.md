@@ -11,7 +11,7 @@ Analytics Dashboard: Gain insights into event performance with comprehensive ana
 Getting Started
 To get started with Attendease, follow these steps:
 
-Clone the Repository: Clone this repository to your local machine using git clone https://github.com/attendease/attendease.git.
+Clone the Repository: Clone this repository to your local machine using git clone[ https://github.com/attendease/attendease.git.](https://github.com/bryanjohn05/Attendance-Management-System/tree/main)
 Install Dependencies: Install the necessary dependencies by running npm install.
 Configure Environment Variables: Set up your environment variables by creating a .env file and specifying the required variables.
 Start the Server: Start the development server by running npm start.
